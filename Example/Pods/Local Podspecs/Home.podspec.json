@@ -1,0 +1,37 @@
+{
+  "name": "Home",
+  "version": "0.1.0",
+  "summary": "Home",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sk409/Home",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sk409": "s.kobayashi@tcmobile.jp"
+  },
+  "source": {
+    "git": "https://github.com/sk409/Home.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "Home/Classes/**/*",
+  "resource_bundles": {
+    "Home": [
+      "Home/Assets/**/*.xib"
+    ]
+  },
+  "dependencies": {
+    "CoreDI": [
+
+    ],
+    "Splash": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}
